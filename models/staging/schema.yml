@@ -1,0 +1,25 @@
+
+version: 2
+
+models:
+  - name: stg_customers
+    description: information about the customers
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+      - name: address
+        tests:
+          - not_null
+          - unique
+  - name: stg_payments
+    description: information about the payments
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+  - name: stg_day_customer
+    columns:
+      - name: customer_id
+        tests:
+          - not_null

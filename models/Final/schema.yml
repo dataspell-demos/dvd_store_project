@@ -1,0 +1,15 @@
+
+version: 2
+
+models:
+  - name: dim_customers_amount
+    columns:
+      - name: sum
+        tests:
+          - not_null
+    models:
+      - name: dim_customers_count
+        columns:
+          - name: sum
+            tests:
+              - not_null

@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: dvd_store_data
+    database: postgres
+    schema: public
+    tables:
+      - name: customer
+      - name: payment

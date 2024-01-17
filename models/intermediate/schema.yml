@@ -1,0 +1,14 @@
+
+version: 2
+
+models:
+  - name: int_sum_calculated
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+  - name: int_count_customer
+    columns:
+      - name: customer_id
+        tests:
+          - not_null

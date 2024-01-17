@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e47e2330-e003-46b7-9925-a1c32a912efa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/models/Final/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Final/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/Final/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/schema.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2b4y6JUzv2kl3jCbDmW93K0vLSP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dbt.Run.executor": "Run",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "frameworks.dbt"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Run" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="run" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fe474e8994c5-083d02a8fb4b-com.jetbrains.pycharm.ds.sharedIndexes.bundled-DS-241.9190" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>

@@ -3,6 +3,7 @@ version: 2
 
 models:
   - name: dim_customers_amount
+    description: '{{ doc("overview") }}'
     columns:
       - name: sum
         tests:

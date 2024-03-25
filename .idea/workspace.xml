@@ -4,57 +4,356 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47e2330-e003-46b7-9925-a1c32a912efa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/models/Final/overview.md" afterDir="false" />
+    <list default="true" id="e47e2330-e003-46b7-9925-a1c32a912efa" name="Changes" comment="Add payment_date to stg_payments&#10;&#10;The stg_payments staging model has been updated to include the payment_date field. This addition allows us to track when payments were made, providing additional information when querying the dvd_store_data source.">
+      <change afterPath="$PROJECT_DIR$/models/Final/dim_customers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Final/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/Final/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Final/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/models/Final/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/intermediate/int_sum_calculated.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/intermediate/int_sum_calculated.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/staging/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_customers.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="SQL File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dataspell-demos&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: []
+}</component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dataspell-demos/dvd_store_project.git&quot;,
+    &quot;accountId&quot;: &quot;d0c8695a-47bd-4aca-9b8b-5076bb9ae730&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/models/Final/dim_customers_amount.sql" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/models/Final/dim_customers_count.sql" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/models/intermediate/int_count_customer.sql" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/models/staging/stg_customers.sql" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/models/staging/stg_payments.sql" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2b4y6JUzv2kl3jCbDmW93K0vLSP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dbt.Run.executor": "Run",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "frameworks.dbt"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;dbt.Run dbt build.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.Run dbt test.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.Run.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.new.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.run: dim_customers.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.run: dim_customers_amount.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.run: dim_customers_count.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.run: int_count_customer.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.run: int_sum_calculated.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.run: new_model.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.run: stg_customers.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.show: demo.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.show: dim_customers.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.show: dim_customers_amount.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.show: int_count_customer.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.show: stg_customers.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.test: dim_customers_amount.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.test: int_count_customer.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.test: stg_customers.sql.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Stanislav.Garkusha/DataspellProjects/dvd_store_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.dbt.settings.DbtProjectConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Run" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+}</component>
+  <component name="RunManager" selected="dbt.show: dim_customers.sql">
+    <configuration name="Run dbt build" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="build" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt debug" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="debug" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt list" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="list" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt run" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
       <option name="dbtCommand" value="run" />
       <module name="dvd_store_project" />
       <method v="2" />
     </configuration>
+    <configuration name="Run dbt test" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="test" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="run" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run: dim_customers_amount.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="dim_customers_amount.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="run" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run: dim_customers_count.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="dim_customers_count.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="run" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run: dim_customers.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="dim_customers.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="run" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run: int_sum_calculated.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="int_sum_calculated.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="run" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run: new_model.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="new_model.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="run" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run: stg_customers.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="stg_customers.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="run" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show: demo.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="demo.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="show" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show: dim_customers_amount.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="dim_customers_amount.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="show" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show: dim_customers.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="dim_customers.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="show" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show: int_count_customer.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="int_count_customer.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="show" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show: stg_customers.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="stg_customers.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="show" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: dim_customers_amount.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="dim_customers_amount.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="test" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: stg_customers.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="stg_customers.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="test" />
+      <module name="dvd_store_project" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="dbt.Run dbt build" />
+      <item itemvalue="dbt.Run dbt debug" />
+      <item itemvalue="dbt.Run dbt list" />
+      <item itemvalue="dbt.Run dbt run" />
+      <item itemvalue="dbt.Run dbt test" />
+      <item itemvalue="dbt.Run" />
+      <item itemvalue="dbt.run: dim_customers_amount.sql" />
+      <item itemvalue="dbt.run: dim_customers_count.sql" />
+      <item itemvalue="dbt.run: dim_customers.sql" />
+      <item itemvalue="dbt.run: int_sum_calculated.sql" />
+      <item itemvalue="dbt.run: new_model.sql" />
+      <item itemvalue="dbt.run: stg_customers.sql" />
+      <item itemvalue="dbt.show: demo.sql" />
+      <item itemvalue="dbt.show: dim_customers_amount.sql" />
+      <item itemvalue="dbt.show: dim_customers.sql" />
+      <item itemvalue="dbt.show: int_count_customer.sql" />
+      <item itemvalue="dbt.show: stg_customers.sql" />
+      <item itemvalue="dbt.test: dim_customers_amount.sql" />
+      <item itemvalue="dbt.test: stg_customers.sql" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fe474e8994c5-083d02a8fb4b-com.jetbrains.pycharm.ds.sharedIndexes.bundled-DS-241.9190" />
+        <option value="bundled-js-predefined-1d06a55b98c1-4a12d9ad36d3-JavaScript-PY-242.4224" />
+        <option value="bundled-python-sdk-33230464901d-374dd79abdd4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.4224" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e47e2330-e003-46b7-9925-a1c32a912efa" name="Changes" comment="Add payment_date to stg_payments&#10;&#10;The stg_payments staging model has been updated to include the payment_date field. This addition allows us to track when payments were made, providing additional information when querying the dvd_store_data source." />
+      <created>1711102013905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711102013905</updated>
+      <workItem from="1711102014925" duration="3195000" />
+      <workItem from="1711305628508" duration="598000" />
+      <workItem from="1711317616015" duration="2546000" />
+      <workItem from="1711358468977" duration="52000" />
+      <workItem from="1711358528800" duration="805000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add project settings and configurations&#10;&#10;New project settings and configurations have been added for the IDE (IntelliJ IDEA). This includes data source configurations for Postgres@localhost, module settings for the Python project, and GitHub Actions Catalog which lists all possible actions with their" />
+    <MESSAGE value="Change materialization type in stg_customers model&#10;&#10;The change modifies the materialization type for stg_customers model from 'view' to 'table'. The modification was necessary to improve the performance and efficiency of the model in the database system." />
+    <MESSAGE value="Add payment_date to stg_payments&#10;&#10;The stg_payments staging model has been updated to include the payment_date field. This addition allows us to track when payments were made, providing additional information when querying the dvd_store_data source." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add payment_date to stg_payments&#10;&#10;The stg_payments staging model has been updated to include the payment_date field. This addition allows us to track when payments were made, providing additional information when querying the dvd_store_data source." />
+  </component>
 </project>

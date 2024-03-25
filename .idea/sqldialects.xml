@@ -2,5 +2,13 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/models/Final/dim_customers_amount.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/models/intermediate/int_sum_calculated.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/models/staging/stg_customers.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/models/staging/stg_payments.sql" dialect="PostgreSQL" />
+  </component>
+  <component name="SqlResolveMappings">
+    <file url="file://$PROJECT_DIR$/models/Final/dim_customers_amount.sql" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
+    <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
   </component>
 </project>

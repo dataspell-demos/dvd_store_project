@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47e2330-e003-46b7-9925-a1c32a912efa" name="Changes" comment="Add payment_date to stg_payments&#10;&#10;The stg_payments staging model has been updated to include the payment_date field. This addition allows us to track when payments were made, providing additional information when querying the dvd_store_data source.">
-      <change afterPath="$PROJECT_DIR$/models/Final/dim_customers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9a030c3-559c-4073-92d7-c70a9d86ade0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Final/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/models/Final/overview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/intermediate/int_sum_calculated.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/intermediate/int_sum_calculated.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/staging/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/schema.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/staging/stg_customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_customers.sql" afterDir="false" />
-    </list>
+    <list default="true" id="e47e2330-e003-46b7-9925-a1c32a912efa" name="Changes" comment="Add payment_date to stg_payments&#10;&#10;The stg_payments staging model has been updated to include the payment_date field. This addition allows us to track when payments were made, providing additional information when querying the dvd_store_data source." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -332,8 +318,17 @@
       <workItem from="1711305628508" duration="598000" />
       <workItem from="1711317616015" duration="2546000" />
       <workItem from="1711358468977" duration="52000" />
-      <workItem from="1711358528800" duration="805000" />
+      <workItem from="1711358528800" duration="852000" />
     </task>
+    <task id="LOCAL-00001" summary="Add payment_date to stg_payments&#10;&#10;The stg_payments staging model has been updated to include the payment_date field. This addition allows us to track when payments were made, providing additional information when querying the dvd_store_data source.">
+      <option name="closed" value="true" />
+      <created>1711362181951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711362181951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
